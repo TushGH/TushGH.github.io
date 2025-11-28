@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <meta name="description" content="personal website for tushar deshpande" />
+    <meta name="description" content="Personal website for Tushar Deshpande" />
     <meta name="author" content="" />
     <title>Resume - Tushar Deshpande</title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
@@ -33,6 +33,8 @@
     />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body id="page-top">
     <!-- Navigation-->
@@ -79,8 +81,8 @@
             <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#interests"
-              >Interests</a
+            <a class="nav-link js-scroll-trigger" href="#certifications"
+              >Certifications</a
             >
           </li>
           <li class="nav-item">
@@ -96,16 +98,18 @@
         <div class="resume-section-content">
           <h1 class="mb-0">Tushar Deshpande</h1>
           <div class="subheading mb-5">
-            9519 University Terrace Dr Apt C , 28262 , Charlotte , NC , USA
             <a href="mailto:tushardeshpande24@gmail.com"
               >tushardeshpande24@gmail.com</a
             >
           </div>
           <p class="lead mb-5">
-            Full Stack Developer with Backend focus and experience in a variety
-            of technologies,including Springboot,Angular, Flutter and AWS. New
-            tech addict, passionate about programming languages, easy-going, fun
-            and with a great sense of humor.
+            Backend-focused software engineer with 7+ years of experience architecting and delivering scalable, resilient systems using Java, Spring Boot, Kafka, and cloud platforms including GCP and Azure. Strong background in building high-performance APIs, event-driven architectures, and real-time data processing pipelines, with a deep focus on reliability, distributed systems, and observability.
+            <br><br>
+            Additionally experienced in mobile application development using Flutter, delivering cross-platform, user-centric apps.
+            <br><br>
+            Hands-on professional experience in blockchain technologies, including designing decentralized solutions and developing smart contracts.
+            <br><br>
+            Currently expanding expertise in AI, with a growing interest in how emerging technologies like Generative and Agentic AI can enhance backend intelligence, automation, and system adaptability.
           </p>
           <div class="social-icons">
             <a
@@ -117,10 +121,10 @@
               ><i class="fab fa-github"></i
             ></a>
             <a
-              class="social-icon"
-              href="https://www.facebook.com/tushar.deshpande.739"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
+              class="download-btn"
+              href="assets/resume/resume.pdf" target="_blank"
+              ><i class="fa fa-download"></i> Download CV</a
+            >
           </div>
         </div>
       </section>
@@ -128,64 +132,99 @@
       <!-- Experience-->
       <section class="resume-section" id="experience">
         <div class="resume-section-content">
-          <h2 class="mb-5">Experience</h2>
-          <div
-            class="d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="flex-grow-1">
-              <h3 class="mb-0">
-                KRW Associates / PayTomorrow LLC, Cornelius, NC, USA
-              </h3>
-              <div class="subheading mb-3">Software Developer</div>
-              <p>
-                <ui>
-                  <li>
-                  Launched an automated underwriting service that approves or declines customer loan and lease requests. 
-                  Receives 100,000+ applications from merchants, managing risk oversight for millions of dollars annually
-                  </li>
-                  <li>
-                    Built API in Java Spring Boot that receives declined applications, allowing underwriters to make manual decisions. 
-                    Endpoints allowed requesting proof documents and tracking financial audit history. 
-                    Decreased customer wait time for re-approvals by 78%.
-                  </li>
-                  <li>
-                    Created a cross platform mobile application using flutter for
-                     providing customer a platform to make monthly payment, track lease/loan payment history and request buyout amount.
-                  </li>
-                  <li>
-                    Implemented a Shopify Application to display monthly price estimator on product 
-                    and cart pages which led to increase in application from Pay Tomorrow’s Shopify payment gateway by 30%. 
-                  </li>
-                </ui>
-              </p>
+          <h2 class="mb-5" data-aos="fade-up">Experience</h2>
+          <div class="timeline">
+            <div class="timeline-item" data-aos="fade-right" data-aos-delay="100">
+              <div class="timeline-marker"></div>
+              <div class="timeline-card">
+                <div class="job-duration">November 2022 - Present</div>
+                <h3 class="job-title">Senior Software Engineer</h3>
+                <h4 class="company-name">Walmart Global Tech</h4>
+                <div class="job-description">
+                  <ul>
+                    <li>
+                      Architected and implemented a robust technical solution (ARD) featuring a multi-tier, highly scalable, fault-tolerant, and
+                      reactive microservices-based low-latency RESTful API using Java Spring Boot and Forklift-Meghacache managed services.
+                      The system efficiently handled over 100 requests per second with an average response time of 138 milliseconds.
+                    </li>
+                    <li>
+                      Led the migration of a legacy system to a modern, scalable architecture leveraging Java, Spring Boot, Kafka, and NoSQL
+                      databases. Employed Reactor Core to build non-blocking, asynchronous API calls, enhancing system responsiveness and
+                      throughput.
+                    </li>
+                    <li>
+                      Designed and developed a high-performance Kafka message processor to manage large-scale message ingestion and
+                      processing. Conducted in-depth data analysis and visualization using Dynatrace, Grafana dashboards, and Splunk for
+                      application log monitoring and performance tuning.
+                    </li>
+                    <li>
+                      Gained hands-on experience and foundational knowledge in WCNP, Concord, Looper, CCM, Lenses, and Grafana,
+                      contributing to system observability and operational excellence.
+                    </li>
+                    <li>
+                      Developed an on-call AI agent to automate ServiceNow incident resolution, leveraging FastAPI, LangGraph, Element Gen
+                      UI, and advanced prompt engineering to streamline workflows and reduce manual intervention.
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">July 2019 - Present</span>
+
+            <div class="timeline-item" data-aos="fade-left" data-aos-delay="200">
+              <div class="timeline-marker"></div>
+              <div class="timeline-card">
+                <div class="job-duration">July 2019 - November 2022</div>
+                <h3 class="job-title">Software Developer</h3>
+                <h4 class="company-name">KRW Associates / PayTomorrow LLC, Cornelius, NC, USA</h4>
+                <div class="job-description">
+                  <ul>
+                    <li>
+                      Developed and launched an automated underwriting service that processes over 100,000+ loan and lease applications from
+                      merchants, enabling real-time approval/decline decisions and managing risk oversight for millions of dollars annually.
+                    </li>
+                    <li>
+                      Engineered RESTful APIs using Java Spring Boot to support manual underwriting workflows for declined applications.
+                      Integrated features for document requests and financial audit tracking, resulting in a 78% reduction in customer wait time for
+                      re-approvals.
+                    </li>
+                    <li>
+                      Designed and maintained secure, scalable MySQL databases (AWS RDS) to store encrypted customer data sourced from
+                      credit bureaus such as TransUnion and LexisNexis (Instant ID, Fraud Point, Phone Finder).
+                    </li>
+                    <li>
+                      Built a cross-platform mobile application using Flutter, providing customers with tools to manage monthly payments, view
+                      lease/loan history, and request buyout amounts—enhancing user engagement and financial transparency.
+                    </li>
+                    <li>
+                      Implemented a custom Shopify application to display monthly price estimators on product and cart pages, driving a 30%
+                      increase in applications through the PayTomorrow Shopify payment gateway.
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
-          </div>
-          <div
-            class="d-flex flex-column flex-md-row justify-content-between mb-4"
-          >
-            <div class="flex-grow-1">
-              <h3 class="mb-0">TATA Consultancy Services, Kolkata WB, India</h3>
-              <div class="subheading mb-3">Assistant System Engineer</div>
-              <p>
-                <ui>
-                  <li>
-                    Boosted the productivity of reporting work by 20% by building a pipeline using REST API, 
-                    which analyzes all text in PDF and automatically generates the table of contents and deactivated all the hyperlinks in PDF using regex.
-                  </li>
-                  <li>
-                   Implemented MySQL Scripts for generating event-based triggers for auditing and replicating closed to 300 schemas.
-                  </li>
-                  <li>
-                    	Automated server monitoring reports using Java Spring and Apache POI reducing processing time by almost 60%.
-                  </li>
-                </ui>
-              </p>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">August 2017 - June 2018</span>
+
+            <div class="timeline-item" data-aos="fade-right" data-aos-delay="300">
+              <div class="timeline-marker"></div>
+              <div class="timeline-card">
+                <div class="job-duration">August 2017 - June 2018</div>
+                <h3 class="job-title">Assistant System Engineer</h3>
+                <h4 class="company-name">TATA Consultancy Services, Kolkata WB, India</h4>
+                <div class="job-description">
+                  <ul>
+                    <li>
+                      Boosted the productivity of reporting work by 20% by building a pipeline using REST API
+                      that analyzes all text in PDFs and automatically generates table of contents while deactivating hyperlinks using regex.
+                    </li>
+                    <li>
+                      Implemented MySQL scripts for generating event-based triggers for auditing and replicating close to 300 schemas.
+                    </li>
+                    <li>
+                      Automated server monitoring reports using Java Spring and Apache POI, reducing processing time by almost 60%.
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -194,27 +233,32 @@
       <!-- Education-->
       <section class="resume-section" id="education">
         <div class="resume-section-content">
-          <h2 class="mb-5">Education</h2>
-          <div
-            class="d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="flex-grow-1">
-              <h3 class="mb-0">The University of Texas at Arlington</h3>
-              <div class="subheading mb-3">Master of Science</div>
-              <div>Computer Science</div>
+          <h2 class="mb-5" data-aos="fade-up">Education</h2>
+          <div class="timeline">
+            <div class="timeline-item" data-aos="fade-right" data-aos-delay="100">
+              <div class="timeline-marker"></div>
+              <div class="timeline-card">
+                <div class="job-duration">August 2017 - May 2019</div>
+                <h3 class="job-title">Master of Science</h3>
+                <h4 class="company-name">The University of Texas at Arlington</h4>
+                <div class="job-description">
+                  <p><strong>Major:</strong> Computer Science</p>
+                  <p>Focused on software engineering, algorithms, and distributed systems. Completed advanced coursework in machine learning, database systems, and web technologies.</p>
+                </div>
+              </div>
             </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">August 2017 - May 2019 </span>
-            </div>
-          </div>
-          <div class="d-flex flex-column flex-md-row justify-content-between">
-            <div class="flex-grow-1">
-              <h3 class="mb-0">SGGSIE&T, Nanded</h3>
-              <div class="subheading mb-3">Bachelor of science</div>
-              <div>Computer Science & Engineering</div>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">August 2012 - May 2016</span>
+
+            <div class="timeline-item" data-aos="fade-left" data-aos-delay="200">
+              <div class="timeline-marker"></div>
+              <div class="timeline-card">
+                <div class="job-duration">August 2012 - May 2016</div>
+                <h3 class="job-title">Bachelor of Science</h3>
+                <h4 class="company-name">SGGSIE&T, Nanded</h4>
+                <div class="job-description">
+                  <p><strong>Major:</strong> Computer Science & Engineering</p>
+                  <p>Comprehensive study of computer science fundamentals including programming, data structures, computer networks, and software engineering principles.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -223,151 +267,401 @@
       <!-- Skills-->
       <section class="resume-section" id="skills">
         <div class="resume-section-content">
-          <h2 class="mb-5">Skills</h2>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="skill-progress">
-                  <div class="skill-title"><h3>Java</h3></div>
-                  <div class="progress">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      style="width: 85%"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    >
-                      <span>85%</span>
-                    </div>
-                  </div>
-                  <!-- /.progress -->
-                </div>
-                <!-- /.skill-progress -->
-
-                <div class="skill-progress">
-                  <div class="skill-title"><h3>Springboot</h3></div>
-                  <div class="progress">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      style="width: 72%"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    >
-                      <span>72%</span>
-                    </div>
-                  </div>
-                  <!-- /.progress -->
-                </div>
-                <!-- /.skill-progress -->
-                <div class="skill-progress">
-                  <div class="skill-title"><h3>Angular-8</h3></div>
-                  <div class="progress">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      style="width: 78%"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    >
-                      <span>78%</span>
-                    </div>
-                  </div>
-                  <!-- /.progress -->
-                </div>
-                <!-- /.skill-progress -->
+          <h2 class="mb-5" data-aos="fade-up">Skills & Technologies</h2>
+          
+          <!-- Backend & Infrastructure -->
+          <div class="skills-category mb-5" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="skills-category-title">Backend & Infrastructure</h3>
+            <div class="skills-grid">
+              <div class="skill-card expert">
+                <i class="fab fa-java"></i>
+                <span>Java</span>
+                <div class="skill-level">Expert</div>
               </div>
-              <!-- /.col-md-6 -->
-
-              <div class="col-md-6">
-                <div class="skill-progress">
-                  <div class="skill-title"><h3>MySQL</h3></div>
-                  <div class="progress">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      style="width: 77%"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    >
-                      <span>77%</span>
-                    </div>
-                  </div>
-                  <!-- /.progress -->
-                </div>
-                <!-- /.skill-progress -->
-                <div class="skill-progress">
-                  <div class="skill-title"><h3>AWS</h3></div>
-                  <div class="progress">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      style="width: 68%"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    >
-                      <span>68%</span>
-                    </div>
-                  </div>
-                  <!-- /.progress -->
-                </div>
-                <!-- /.skill-progress -->
-                <div class="skill-progress">
-                  <div class="skill-title"><h3>Flutter / Dart</h3></div>
-                  <div class="progress">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      style="width: 84%"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    >
-                      <span>84%</span>
-                    </div>
-                  </div>
-                  <!-- /.progress -->
-                </div>
-                <!-- /.skill-progress -->
+              <div class="skill-card expert">
+                <i class="fas fa-leaf"></i>
+                <span>Spring Boot</span>
+                <div class="skill-level">Expert</div>
               </div>
-              <!-- /.col-md-6 -->
+              <div class="skill-card advanced">
+                <i class="fas fa-cubes"></i>
+                <span>Maven</span>
+                <div class="skill-level">Advanced</div>
+              </div>
+              <div class="skill-card expert">
+                <i class="fas fa-stream"></i>
+                <span>Kafka</span>
+                <div class="skill-level">Expert</div>
+              </div>
+              <div class="skill-card intermediate">
+                <i class="fas fa-cogs"></i>
+                <span>KITT</span>
+                <div class="skill-level">Intermediate</div>
+              </div>
+              <div class="skill-card intermediate">
+                <i class="fas fa-network-wired"></i>
+                <span>WCNP</span>
+                <div class="skill-level">Intermediate</div>
+              </div>
+              <div class="skill-card advanced">
+                <i class="fas fa-server"></i>
+                <span>Microservices</span>
+                <div class="skill-level">Advanced</div>
+              </div>
+              <div class="skill-card advanced">
+                <i class="fas fa-bolt"></i>
+                <span>Reactive Programming</span>
+                <div class="skill-level">Advanced</div>
+              </div>
             </div>
-            <!-- /.row -->
+          </div>
+
+          <!-- Databases & Messaging -->
+          <div class="skills-category mb-5" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="skills-category-title">Databases & Messaging</h3>
+            <div class="skills-grid">
+              <div class="skill-card advanced">
+                <i class="fas fa-database"></i>
+                <span>Cassandra</span>
+                <div class="skill-level">Advanced</div>
+              </div>
+              <div class="skill-card intermediate">
+                <i class="fas fa-database"></i>
+                <span>MySQL</span>
+                <div class="skill-level">Intermediate</div>
+              </div>
+              <div class="skill-card advanced">
+                <i class="fas fa-database"></i>
+                <span>NoSQL</span>
+                <div class="skill-level">Advanced</div>
+              </div>
+              <div class="skill-card advanced">
+                <i class="fas fa-vector-square"></i>
+                <span>Milvus Vector DB</span>
+                <div class="skill-level">Advanced</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- AI & Machine Learning -->
+          <div class="skills-category mb-5" data-aos="fade-up" data-aos-delay="300">
+            <h3 class="skills-category-title">AI & Machine Learning</h3>
+            <div class="skills-grid">
+              <div class="skill-card expert">
+                <i class="fab fa-python"></i>
+                <span>Python</span>
+                <div class="skill-level">Expert</div>
+              </div>
+              <div class="skill-card advanced">
+                <i class="fas fa-brain"></i>
+                <span>TensorFlow</span>
+                <div class="skill-level">Advanced</div>
+              </div>
+              <div class="skill-card advanced">
+                <i class="fas fa-fire"></i>
+                <span>PyTorch</span>
+                <div class="skill-level">Advanced</div>
+              </div>
+              <div class="skill-card advanced">
+                <i class="fas fa-chart-line"></i>
+                <span>Scikit-learn</span>
+                <div class="skill-level">Advanced</div>
+              </div>
+              <div class="skill-card expert">
+                <i class="fas fa-robot"></i>
+                <span>Generative AI</span>
+                <div class="skill-level">Expert</div>
+              </div>
+              <div class="skill-card expert">
+                <i class="fas fa-user-robot"></i>
+                <span>Agentic AI</span>
+                <div class="skill-level">Expert</div>
+              </div>
+              <div class="skill-card advanced">
+                <i class="fas fa-magic"></i>
+                <span>Element Gen AI</span>
+                <div class="skill-level">Advanced</div>
+              </div>
+              <div class="skill-card advanced">
+                <i class="fas fa-link"></i>
+                <span>LangChain</span>
+                <div class="skill-level">Advanced</div>
+              </div>
+              <div class="skill-card advanced">
+                <i class="fas fa-project-diagram"></i>
+                <span>LangGraph</span>
+                <div class="skill-level">Advanced</div>
+              </div>
+              <div class="skill-card intermediate">
+                <i class="fas fa-check-circle"></i>
+                <span>Pydantic</span>
+                <div class="skill-level">Intermediate</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- APIs & Frameworks -->
+          <div class="skills-category mb-5" data-aos="fade-up" data-aos-delay="400">
+            <h3 class="skills-category-title">APIs & Frameworks</h3>
+            <div class="skills-grid">
+              <div class="skill-card expert">
+                <i class="fas fa-rocket"></i>
+                <span>FastAPI</span>
+                <div class="skill-level">Expert</div>
+              </div>
+              <div class="skill-card advanced">
+                <i class="fab fa-angular"></i>
+                <span>Angular</span>
+                <div class="skill-level">Advanced</div>
+              </div>
+              <div class="skill-card advanced">
+                <i class="fab fa-flutter"></i>
+                <span>Flutter</span>
+                <div class="skill-level">Advanced</div>
+              </div>
+              <div class="skill-card intermediate">
+                <i class="fas fa-mobile-alt"></i>
+                <span>Dart</span>
+                <div class="skill-level">Intermediate</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Monitoring & DevOps -->
+          <div class="skills-category mb-5" data-aos="fade-up" data-aos-delay="500">
+            <h3 class="skills-category-title">Monitoring & DevOps</h3>
+            <div class="skills-grid">
+              <div class="skill-card advanced">
+                <i class="fas fa-chart-area"></i>
+                <span>Dynatrace</span>
+                <div class="skill-level">Advanced</div>
+              </div>
+              <div class="skill-card advanced">
+                <i class="fas fa-chart-bar"></i>
+                <span>Grafana</span>
+                <div class="skill-level">Advanced</div>
+              </div>
+              <div class="skill-card intermediate">
+                <i class="fas fa-search"></i>
+                <span>Splunk</span>
+                <div class="skill-level">Intermediate</div>
+              </div>
+              <div class="skill-card intermediate">
+                <i class="fas fa-eye"></i>
+                <span>Open Observe</span>
+                <div class="skill-level">Intermediate</div>
+              </div>
+              <div class="skill-card intermediate">
+                <i class="fas fa-layer-group"></i>
+                <span>Data Hub</span>
+                <div class="skill-level">Intermediate</div>
+              </div>
+              <div class="skill-card intermediate">
+                <i class="fas fa-glasses"></i>
+                <span>Lenses</span>
+                <div class="skill-level">Intermediate</div>
+              </div>
+              <div class="skill-card intermediate">
+                <i class="fab fa-aws"></i>
+                <span>AWS</span>
+                <div class="skill-level">Intermediate</div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
       <hr class="m-0" />
-      <!-- Interests-->
-      <section class="resume-section" id="interests">
+      <!-- Certifications-->
+      <section class="resume-section" id="certifications">
         <div class="resume-section-content">
-          <h2 class="mb-5">Interests</h2>
-          <p>
-            Apart from being a software developer, I enjoy most of my time being
-            outdoors. During the warmer months , I enjoy mountain biking, free
-            climbing, and Treaking.
-          </p>
-          <p class="mb-0">
-            When forced indoors, I follow a number of sci-fi and fantasy genre
-            movies and television shows, I am an aspiring guitarist, and I spend
-            a large amount of my free time exploring the latest technological
-            advancements in the tech world.
-          </p>
+          <h2 class="mb-5" data-aos="fade-up">Professional Certifications</h2>
+          
+          <div class="certifications-grid">
+            <!-- Machine Learning Specialization -->
+            <div class="certification-card" data-aos="fade-up" data-aos-delay="100">
+              <div class="cert-header">
+                <div class="cert-icon">
+                  <i class="fas fa-brain"></i>
+                </div>
+                <div class="cert-provider">Stanford Online | DeepLearning.AI</div>
+              </div>
+              <h3 class="cert-title">Unsupervised Learning, Recommenders, Reinforcement Learning</h3>
+              <div class="cert-skills">
+                <span class="skill-tag">Deep Learning</span>
+                <span class="skill-tag">Artificial Neural Networks</span>
+                <span class="skill-tag">Unsupervised Learning</span>
+                <span class="skill-tag">Machine Learning Algorithms</span>
+              </div>
+              <div class="cert-badge">
+                <i class="fas fa-certificate"></i>
+                <span>Verified Certificate</span>
+              </div>
+            </div>
+
+            <!-- Supervised Learning -->
+            <div class="certification-card" data-aos="fade-up" data-aos-delay="200">
+              <div class="cert-header">
+                <div class="cert-icon">
+                  <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="cert-provider">Stanford Online | DeepLearning.AI</div>
+              </div>
+              <h3 class="cert-title">Supervised Machine Learning: Regression and Classification</h3>
+              <div class="cert-skills">
+                <span class="skill-tag">Supervised Learning</span>
+                <span class="skill-tag">Regression Analysis</span>
+                <span class="skill-tag">Classification</span>
+                <span class="skill-tag">Statistical Modeling</span>
+              </div>
+              <div class="cert-badge">
+                <i class="fas fa-certificate"></i>
+                <span>Verified Certificate</span>
+              </div>
+            </div>
+
+            <!-- Advanced Learning -->
+            <div class="certification-card" data-aos="fade-up" data-aos-delay="300">
+              <div class="cert-header">
+                <div class="cert-icon">
+                  <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="cert-provider">Stanford Online | DeepLearning.AI</div>
+              </div>
+              <h3 class="cert-title">Advanced Learning Algorithms</h3>
+              <div class="cert-skills">
+                <span class="skill-tag">Advanced ML</span>
+                <span class="skill-tag">Neural Networks</span>
+                <span class="skill-tag">Optimization</span>
+                <span class="skill-tag">Algorithm Design</span>
+              </div>
+              <div class="cert-badge">
+                <i class="fas fa-certificate"></i>
+                <span>Verified Certificate</span>
+              </div>
+            </div>
+
+            <!-- IBM RAG and Agentic AI -->
+            <div class="certification-card" data-aos="fade-up" data-aos-delay="400">
+              <div class="cert-header">
+                <div class="cert-icon">
+                  <i class="fas fa-robot"></i>
+                </div>
+                <div class="cert-provider">IBM</div>
+              </div>
+              <h3 class="cert-title">RAG and Agentic AI Professional Certificate</h3>
+              <div class="cert-skills">
+                <span class="skill-tag">LangGraph</span>
+                <span class="skill-tag">LangChain</span>
+                <span class="skill-tag">RAG</span>
+                <span class="skill-tag">Vector Databases</span>
+                <span class="skill-tag">Agentic AI</span>
+              </div>
+              <div class="cert-badge professional">
+                <i class="fas fa-medal"></i>
+                <span>Professional Certificate</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="cert-summary" data-aos="fade-up" data-aos-delay="500">
+            <p class="lead">
+              Continuously expanding expertise through industry-leading certifications in Machine Learning, 
+              Deep Learning, and cutting-edge AI technologies. These credentials demonstrate proficiency in 
+              both theoretical foundations and practical applications of modern AI systems.
+            </p>
+          </div>
         </div>
       </section>
       <hr class="m-0" />
+      <!-- Contact -->
       <section class="resume-section" id="contact">
         <div class="resume-section-content">
-          <h2 class="mb-5">Contact me</h2>
-          <p>
-            I am always open for you comments. you can reach me at
-            <a href="mailto:tushardeshpande24@gmail.com"
-              >tushardeshpande24@gmail.com</a
-            > (6825534111) or
-            or  download my Curriculum vitae 
-            <a href="assets\resume\resume.pdf" target="_blank"
-              ><i class="fa fa-download"></i
-            ></a>
-          </p>
+          <h2 class="mb-5" data-aos="fade-up">Let's Connect</h2>
+          
+          <div class="contact-container">
+            <div class="contact-intro" data-aos="fade-up" data-aos-delay="100">
+              <p class="contact-description">
+                I'm always excited to discuss new opportunities, collaborate on interesting projects, 
+                or simply connect with fellow tech enthusiasts. Whether you're looking to hire, 
+                partner, or just want to chat about the latest in backend engineering and AI, 
+                I'd love to hear from you!
+              </p>
+            </div>
+
+            <div class="contact-methods" data-aos="fade-up" data-aos-delay="200">
+              <div class="contact-card">
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-info">
+                  <h3>Email</h3>
+                  <a href="mailto:tushardeshpande24@gmail.com" class="contact-link">
+                    Send me an email
+                  </a>
+                  <p>Best for detailed discussions and professional inquiries</p>
+                </div>
+              </div>
+
+              <div class="contact-card">
+                <div class="contact-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="contact-info">
+                  <h3>Phone</h3>
+                  <a href="tel:+16825534111" class="contact-link">
+                    (682) 553-4111
+                  </a>
+                  <p>Available for quick calls and urgent matters</p>
+                </div>
+              </div>
+
+              <div class="contact-card">
+                <div class="contact-icon">
+                  <i class="fab fa-linkedin"></i>
+                </div>
+                <div class="contact-info">
+                  <h3>LinkedIn</h3>
+                  <a href="https://www.linkedin.com/in/tushar-deshpande-51bb59a2/" target="_blank" class="contact-link">
+                    Connect on LinkedIn
+                  </a>
+                  <p>Professional networking and career updates</p>
+                </div>
+              </div>
+
+              <div class="contact-card">
+                <div class="contact-icon">
+                  <i class="fab fa-github"></i>
+                </div>
+                <div class="contact-info">
+                  <h3>GitHub</h3>
+                  <a href="https://github.com/TushGH" target="_blank" class="contact-link">
+                    View My Code
+                  </a>
+                  <p>Explore my projects and contributions</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-cta" data-aos="fade-up" data-aos-delay="300">
+              <div class="cta-content">
+                <h3>Ready to Start a Conversation?</h3>
+                <p>Download my resume to learn more about my experience and skills</p>
+                <div class="cta-buttons">
+                  <a href="assets/resume/resume.pdf" target="_blank" class="btn-primary-contact">
+                    <i class="fa fa-download"></i> Download Resume
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-footer" data-aos="fade-up" data-aos-delay="400">
+              <p class="response-time">
+                <i class="fas fa-clock"></i>
+                I typically respond to emails within 24 hours
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </div>
@@ -378,5 +672,23 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        easing: 'ease-in-out',
+        once: true,
+        offset: 100
+      });
+      
+      // Add staggered animation to timeline items
+      document.addEventListener('DOMContentLoaded', function() {
+        const timelineItems = document.querySelectorAll('.timeline-item');
+        timelineItems.forEach((item, index) => {
+          item.style.animationDelay = `${index * 0.2}s`;
+        });
+      });
+    </script>
   </body>
 </html>
